@@ -1,0 +1,22 @@
+In this project, we will be scraping the google results.
+
+
+Prequels:
+> Defining a search result we are expecting (struct)
+> Defining the google domains, .com, .fr
+> Define the user agents, browsers
+> In main function, defining keywords we need to search
+> Google Query function, building search query
+> Selecting a random user from the users list
+> Scrape Function -> makes the request from the URL
+> parse the result and store it accordingly to the struct
+> append to the lists
+> print
+
+ 
+Procedure:
+1) We will start working with the models to define what we need from the results, so that we can get exactly what we want.
+2) Now we will have the useragents, that are the browsers we are going to run for getting results
+3) Then there will be a function that would be choosing a random agent, in this we will get a number from 1 to number of user agents available 
+4) We would be defining the Scrape function in which we woild be returning a slice of our model and also there will be counter that will have the count of the total results. Along with this there will an another function, in which we will be building queries for our google search. 
+5) Our buildURL function will return the a list of all the URL, that we will be hitting on browser, like a google link
